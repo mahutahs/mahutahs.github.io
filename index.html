@@ -1,45 +1,124 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @mahutahs
+ Watch 456
+  Star 10,858
+ Fork 1,903 dhg/Skeleton
+ Code  Issues 44  Pull requests 36  Wiki  Pulse  Graphs
+Branch: gh-pages Find file Copy pathSkeleton/examples/landing/index.html
+da2e1d0  on Dec 16, 2014
+@dhg dhg updating landing page to reflect small changes with new containers an…
+1 contributor
+RawBlameHistory     106 lines (90 sloc)  4.54 KB
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Welcome to Mahuta's Blog Homepage </title>
-    <meta charset="UTF-8">
-    <link href="/style.css/style.css" rel="stylesheet" type="text/css">
-  </head>
+<html lang="en">
+<head>
 
-  <body>
-    <nav>
-      <h3>Blog Entries</h3>
-      <ul>
-        <li>
-          <a href="index.html"> Home </a>
-        </li>
-        <li>
-          <a href="blog/c1-reflection-blog.html"> Reflections</a>
-        </li>
-        <li>
-          <a href="blog/c1-time-and-habits-blog.html"> Time and habbits</a>
-        </li>
-      <li>
-        <a href="blog/t2-html-css-dom-p1.html"> 2.2 Technical Blog Part 1 (Udacity Reflection)</a>
-      </li>
-      <li>
-        <a href="blog/t2-html-css-dom-p2.html"> 2.4 Technical Blog Part 2 (Udacity Reflection)</a>
-      </li>
-      <li>
-        <a href="blog/c2-emotional-intelligence.html"> Emotional Intelligence </a>
-      </li>
-      </ul>
-    </nav>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Skeleton: Responsive CSS Boilerplate</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <h1>Hi! My names Mahuta, Welcome to my interest world!</h1>
-    <p>
-    Nau mai Haere mai to my blog! Below are some links to my blog entries.
-  </p>
-    <p>
-      If you have any questions please contact me on slack or by email <a href="mahutahs@yahoo.co.nz">mahutahs@yahoo.co.nz</a>
-      <br>
-      I look forward to working with you all as we shape our stories going forward!
-    </p>
-<br>
-  </body>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../../dist/css/normalize.css">
+  <link rel="stylesheet" href="../../dist/css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="section hero">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4 class="hero-heading">Stop coding non-responsive sites. Let users view sites from anywhere.</h4>
+          <a class="button button-primary" href="http://getskeleton.com">Try Skeleton</a>
+        </div>
+        <div class="one-half column phones">
+          <img class="phone" src="images/iphone.png">
+          <img class="phone" src="images/iphone.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section values">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column value">
+          <h2 class="value-multiplier">67%</h2>
+          <h5 class="value-heading">Purchase Increase</h5>
+          <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">90%</h2>
+          <h5 class="value-heading">Multi-device Users</h5>
+          <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
+        </div>
+        <div class="one-third column value">
+          <h2 class="value-multiplier">66%</h2>
+          <h5 class="value-heading">Sad Users</h5>
+          <p class="value-description">Percentage of users that are frustrated with page load times.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section get-help">
+    <div class="container">
+      <h3 class="section-heading">Need help getting started?</h3>
+      <p class="section-description">Skeleton is an amazingly easy place to start with responsive development. If you want to learn more, just visit the documentation!</p>
+      <a class="button button-primary" href="http://getskeleton.com">View Skeleton Docs</a>
+    </div>
+  </div>
+
+  <div class="section categories">
+    <div class="container">
+      <h3 class="section-heading">Responsive Images</h3>
+      <p class="section-description">Skeleton images sit easily in grid with .u-max-full-width class. I suggest exploring solution to serving different images based on device size.</p>
+      <div class="row">
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+        <div class="one-half column category">
+          <img class="u-max-full-width" src="images/placeholder.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
+Status API Training Shop Blog About Pricing
+© 2016 GitHub, Inc. Terms Privacy Security Contact Help
